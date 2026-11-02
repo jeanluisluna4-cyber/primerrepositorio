@@ -1,0 +1,21 @@
+name: flutterapk
+description: "Un nuevo bloc de notas en Flutter."
+publish_to: 'none' # Evita que se suba por accidente a pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
